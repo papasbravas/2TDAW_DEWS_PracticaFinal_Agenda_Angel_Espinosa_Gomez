@@ -1,0 +1,48 @@
+1. Crear tablas
+
+2. Inicio de sesion del usuario
+    - Cuando inicie sesión que avance a la página principal de la app.
+
+3. Amigos
+    - Debe aparecer un submenú con opciones de insertar y buscar amigos.
+    - Lista inicial
+        * Debe aparecer directamente un listado de los amigos del usuario (nombre, apellidos y fecha de nacimiento en formato español).
+        * Botón para modificar datos del amigo en concreto.
+    - Insertar amigos
+        * Un formulario para insertar los datos (nombre, apellidos y fecha de nacimiento en formato español).
+    - Buscar amigos
+        * Un formulario para buscar al amigo por nombre o apellidos (si varios tienen el mismo nombre o apellidos deben aparecer todos).
+    - Modificar amigos
+        * Formulario para modificar todos los datos del amigo en cuestión.
+
+4. Juegos
+    - Submenú con opciones de insertar y buscar juegos.
+    - Lista inicial
+        * Debe aparecer directamente un listado de todos los juegos que hay en la base de datos (foto del juego, título, plataforma y el año de lanzamiento).
+        * Botón para modificar datos del juego en concreto.
+    - Insertar juegos
+        * Un formulario para insertar todos los datos del juego nuevo (foto del juego, título, plataforma y el año de lanzamiento).
+    - Buscar juegos
+        * Un formulario para buscar los juegos por su nombre o plataforma.
+    - Modificar juegos
+        * Un formulario para modificar los datos del juego elegido.
+
+5. Préstamos
+    - Debe aparecer un submenú para insertar y buscar préstamos.
+    - Lista inicial
+        * Debe aparecer directamente un listado de todos los préstamos que hay en la base de datos (nombre del amigo, foto del juego, fecha del préstamo en formato español, si está devuelto o no).
+        * Botón para devolver el préstamo (si ya está devuelto se desactiva el botón y se cambia de no a sí).
+    - Insertar préstamos
+        * Un formulario para añadir los datos necesarios. Unas listas desplegables para elegir a qué amigo le presta el juego y otra para elegir que juego presta. Introducir fecha de préstamo, por defecto pone NO en devuelto.
+    - Buscar préstamo
+        * Un formulario para buscar el préstamos por el nombre del amigo o el título del juego.
+
+6. Administrador
+    - Si el usuario es un administrador, puede ver un menú con las opciones contactos, juegos y usuarios.
+    - Contactos
+        * Ver un listado de todos los contactos que hay en la app. Puede ver además quien lo insertó.
+        * Insertar contactos
+            + Además de los datos típicos, elige qué usuario le asigna ese contacto.
+    - Usuarios
+        * Ver un listado de todos los usuarios que hay en la aplicación. Ver el id, nombre y contraseña (con ******).
+        * Un botón de modificar, poder insertar usuarios y buscar usuarios.
