@@ -1,0 +1,22 @@
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+td img {
+    max-width: 100px;
+    height: auto;
+}
